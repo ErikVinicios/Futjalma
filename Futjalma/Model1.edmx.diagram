@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fb4280b2f618477da09edb68a1ab23dd" Name="Diagram1">
+        <EntityTypeShape EntityType="FutjalmaModel.Campeonato" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel.Clube" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel.Contratacao" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel.InfoCampeonato" Width="1.5" PointX="6" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel.Inscricao" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel.Jogador" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FutjalmaModel.Partida" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="FutjalmaModel.FK__InfoCampe__Campe__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel.FK__Inscricao__Campe__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel.FK__Partida__Campeon__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel.FK__Contratac__Clube__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel.FK__InfoCampe__Clube__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel.FK__Inscricao__Clube__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel.FK__Partida__Clube1I__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel.FK__Partida__Clube2I__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="FutjalmaModel.FK__Contratac__Jogad__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
